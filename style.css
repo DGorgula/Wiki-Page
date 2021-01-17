@@ -1,0 +1,74 @@
+/* General CSS */
+
+:root {
+    --green: rgb(30, 59, 0);
+    --gray:  rgb(185, 185, 185);
+    --current-hover: rgb(238, 117, 30);
+    --link-hover: rgb(210, 81, 30);
+}
+@font-face{
+    font-family: "Ayuma2yk";
+    src: url(./assets/fonts/Ayuma2yk.ttf);
+}
+@font-face{
+    font-family: "AlexBrush-Regular";
+    src: url(./assets/fonts/AlexBrush-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'AlexBrush-Regular', 'Ayuma2yk', 'Courier New', 
+    Courier, monospace;
+    font-weight: bold;
+}
+
+#navbar {
+    background-color: var(--gray);
+    font-size: 3.5rem;
+    /* font-weight: bold;            still thinking about it  */
+    margin: 0;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100vw;
+}
+.nav-link {
+    margin: 0;
+    padding: 1.5rem ;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--green);
+    background-color: chocolate;
+}
+.nav-link:hover {
+    background-color: var(--link-hover);
+
+}
+.current-nav-link {
+    background-color: var(--current-hover);
+}
+
+
+/* Home Page CSS */
+
+#home-img {
+    margin: 0;
+    padding: 0;
+    max-width: 100vmax;
+}
+#main-footer{
+    background-color: var(--gray);
+    
+}
+#home-body{
+    background-image: url(./assets/images/index.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+}
