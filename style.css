@@ -16,9 +16,9 @@
 }
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-size: 1em;
@@ -27,16 +27,19 @@ body{
     font-weight: bold;
 }
 
+
+/* General Nav-Bar CSS */
+
 #navbar {
-    background-color: var(--gray);
-    font-size: 3.5rem;
-    /* font-weight: bold;            still thinking about it  */
     margin: 0;
     padding: 2rem 0;
     position: fixed;
+    width: 100vw;
     top: 0;
     text-align: center;
-    width: 100vw;
+    background-color: var(--gray);
+    font-size: 3.5rem;
+    /* font-weight: bold;            still thinking about it  */
 }
 .nav-link {
     margin: 0;
@@ -55,16 +58,39 @@ body{
 }
 
 
+/* General Footer CSS */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    background-color:var(--gray);
+}
+
+.footer-img{
+    margin: 0;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    /* z-index: 1; */
+    /* color: blue; */
+}
+
+#discord:hover{
+    color:#7289da;
+}
+
+#telegram:hover{
+    color:#7289da;
+}
+
 /* Home Page CSS */
 
 #home-img {
     margin: 0;
     padding: 0;
     max-width: 100vmax;
-}
-#main-footer{
-    background-color: var(--gray);
-    
 }
 #home-body{
     background-image: url(./assets/images/index.png);
