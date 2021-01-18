@@ -44,7 +44,7 @@ body{
 .nav-link {
     margin: 0;
     padding: 1.5rem ;
-    border-radius: 0.5rem;
+    border-radius: 3rem;
     text-decoration: none;
     color: var(--text-color);
     background-color: chocolate;
