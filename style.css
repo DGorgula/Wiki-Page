@@ -1,0 +1,107 @@
+/* General CSS */
+
+:root {
+    --text-color: rgb(30, 59, 0);
+    --nav-footer:  rgb(185, 185, 185);
+    --current-hover: rgb(238, 117, 30);
+    --link-hover: rgb(210, 81, 30);
+}
+@font-face{
+    font-family: "Ayuma2yk";
+    src: url(./assets/fonts/Ayuma2yk.ttf);
+}
+@font-face{
+    font-family: "AlexBrush-Regular";
+    src: url(./assets/fonts/AlexBrush-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1em;
+    font-family: 'AlexBrush-Regular', 'Ayuma2yk', 'Courier New', 
+    Courier, monospace;
+    font-weight: bold;
+}
+
+
+/* General Nav-Bar CSS */
+
+#navbar {
+    margin: 0;
+    padding: 2rem 0;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    text-align: center;
+    background-color: var(--nav-footer);
+    font-size: 3.5rem;
+    /* font-weight: bold;            still thinking about it  */
+}
+.nav-link {
+    margin: 0;
+    padding: 1.5rem ;
+    border-radius: 3rem;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: chocolate;
+}
+.nav-link:hover {
+    background-color: var(--link-hover);
+
+}
+.current-nav-link {
+    background-color: var(--current-hover);
+}
+
+
+/* General Footer CSS */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    background-color:var(--nav-footer);
+}
+
+.footer-img{
+    margin: 0;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.discord:hover{
+    fill:#7289da;
+}
+
+.telegram:hover{
+    fill:#0088cc;
+}
+
+/* Home Page CSS */
+
+#home-img {
+    margin: 0;
+    padding: 0;
+    max-width: 100vmax;
+}
+
+#home-body{
+    background-image: url(./assets/images/index.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+}
+
+#home-main-text {
+    margin-left: 3rem;
+    margin-top: 15rem;
+    font-size: 6rem;
+    color: var(--link-hover);
+    
+}
