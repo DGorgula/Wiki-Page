@@ -37,7 +37,7 @@ body {
     margin: 0;
     padding: 2rem 0;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     text-align: center;
     background-color: var(--nav-footer);
@@ -67,7 +67,7 @@ body {
 footer {
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     background-color:var(--nav-footer);
 }
@@ -234,6 +234,7 @@ input {
     margin: 0.3rem;
     border-radius: 3rem;
     font-size: 2rem;
+    text-align: center;
 }
 
 
