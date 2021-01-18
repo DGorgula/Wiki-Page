@@ -90,9 +90,18 @@ footer {
     padding: 0;
     max-width: 100vmax;
 }
+
 #home-body{
     background-image: url(./assets/images/index.png);
     background-repeat: no-repeat;
     background-size: 100vw;
+    
+}
+
+#home-main-text {
+    margin-left: 3rem;
+    margin-top: 15rem;
+    font-size: 6rem;
+    color: var(--link-hover);
     
 }
