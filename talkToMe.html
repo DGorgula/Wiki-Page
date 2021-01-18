@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yaelula</title>
 </head>
-<body>
+<body id="talktome-body">
     <nav id="navbar">
         <img src="" alt="" id="nav-img">
         <a href="./index.html" class="nav-link">Home</a>
@@ -15,11 +15,12 @@
         <a href="./about.html" class="nav-link">About</a>
         <a href="./talkToMe.html" class="nav-link current-nav-link">Talk to me!</a>
     </nav>
-    <main>
+    <main id="main-talktome">
 <form action="#">
-    <input  name="name" type="text" required>
-    <input type="email" name="email" id=""required>
-    <input type="submit">
+    <h2>Talk to me!</h2>
+    <input  name="name" type="text" placeholder="Name" required >
+    <input type="email" name="email" placeholder="email" required >
+    <input class="current-nav-link" type="submit">
 </form>
     </main>
     <footer id="main-footer">
