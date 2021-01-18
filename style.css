@@ -1,8 +1,8 @@
 /* General CSS */
 
 :root {
-    --green: rgb(30, 59, 0);
-    --gray:  rgb(185, 185, 185);
+    --text-color: rgb(30, 59, 0);
+    --nav-footer:  rgb(185, 185, 185);
     --current-hover: rgb(238, 117, 30);
     --link-hover: rgb(210, 81, 30);
 }
@@ -37,7 +37,7 @@ body{
     width: 100vw;
     top: 0;
     text-align: center;
-    background-color: var(--gray);
+    background-color: var(--nav-footer);
     font-size: 3.5rem;
     /* font-weight: bold;            still thinking about it  */
 }
@@ -46,7 +46,7 @@ body{
     padding: 1.5rem ;
     border-radius: 0.5rem;
     text-decoration: none;
-    color: var(--green);
+    color: var(--text-color);
     background-color: chocolate;
 }
 .nav-link:hover {
@@ -65,7 +65,7 @@ footer {
     bottom: 0;
     width: 100vw;
     text-align: center;
-    background-color:var(--gray);
+    background-color:var(--nav-footer);
 }
 
 .footer-img{
