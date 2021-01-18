@@ -73,16 +73,14 @@ footer {
     padding: 0.5rem;
     width: 4rem;
     height: 4rem;
-    /* z-index: 1; */
-    /* color: blue; */
 }
 
-#discord:hover{
-    color:#7289da;
+.discord:hover{
+    fill:#7289da;
 }
 
-#telegram:hover{
-    color:#7289da;
+.telegram:hover{
+    fill:#0088cc;
 }
 
 /* Home Page CSS */
