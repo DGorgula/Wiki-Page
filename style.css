@@ -110,6 +110,7 @@ footer {
 
 
 /* Videos Page CSS */
+
 #videos-body {
     background-image: url(./assets/images/camera.png);
     background-repeat: no-repeat;
@@ -137,5 +138,55 @@ footer {
 
 }
 
-.videos {
+/* jewelry Page CSS */
+
+#jewelry-body {
+    background-image: url(./assets/images/jewels-table.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+}
+
+#jewelry-description-div {
+    padding: 4rem;
+    margin: 13rem 10rem;
+    background-color: var(--nav-footer);
+    border-radius: 4rem;
+}
+
+#jewelry-description {
+    font-size: 2rem;
+}
+
+#jewelry-div {
+    background-color: var(--text-color);
+}
+
+#jewelry-div {
+    margin-bottom: 4rem;
+    padding: 5rem 0;
+    /* display: flex;
+    justify-content: space-around;
+    background-color: var(--text-color); */
+
+}
+
+.jewelry-heading {
+    font-size: 6rem;
+}
+
+.jewelry-img {
+    width: 20rem;
+}
+
+#neck-img-div {
+    width: 100%
+    display: grid;
+    grid-template-columns: 1fr , 3fr, 1fr, 3fr, 1fr, 3fr,1fr , 3fr, 1fr;
+
+    
+}
+
+a {
+    font-size: 2rem;
 }
