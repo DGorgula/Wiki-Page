@@ -6,11 +6,13 @@
     --current-hover: rgb(238, 117, 30);
     --link-hover: rgb(210, 81, 30);
 }
-@font-face{
+
+@font-face {
     font-family: "Ayuma2yk";
     src: url(./assets/fonts/Ayuma2yk.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: "AlexBrush-Regular";
     src: url(./assets/fonts/AlexBrush-Regular.ttf);
 }
@@ -20,7 +22,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-size: 1em;
     font-family: 'AlexBrush-Regular', 'Ayuma2yk', 'Courier New', 
     Courier, monospace;
@@ -39,8 +42,8 @@ body{
     text-align: center;
     background-color: var(--nav-footer);
     font-size: 3.5rem;
-    /* font-weight: bold;            still thinking about it  */
 }
+
 .nav-link {
     margin: 0;
     padding: 1.5rem ;
@@ -49,10 +52,11 @@ body{
     color: var(--text-color);
     background-color: chocolate;
 }
+
 .nav-link:hover {
     background-color: var(--link-hover);
-
 }
+
 .current-nav-link {
     background-color: var(--current-hover);
 }
@@ -68,18 +72,18 @@ footer {
     background-color:var(--nav-footer);
 }
 
-.footer-img{
+.footer-img {
     margin: 0;
     padding: 0.5rem;
     width: 4rem;
     height: 4rem;
 }
 
-.discord:hover{
+.discord:hover {
     fill:#7289da;
 }
 
-.telegram:hover{
+.telegram:hover {
     fill:#0088cc;
 }
 
@@ -91,11 +95,10 @@ footer {
     max-width: 100vmax;
 }
 
-#home-body{
+#home-body {
     background-image: url(./assets/images/index.png);
     background-repeat: no-repeat;
     background-size: 100vw;
-    
 }
 
 #home-main-text {
@@ -103,5 +106,36 @@ footer {
     margin-top: 15rem;
     font-size: 6rem;
     color: var(--link-hover);
+}
+
+
+/* Videos Page CSS */
+#videos-body {
+    background-image: url(./assets/images/camera.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
     
+}
+
+#videos-description-div {
+    padding: 4rem;
+    margin: 13rem 10rem;
+    background-color: var(--nav-footer);
+    border-radius: 4rem;
+}
+
+#videos-description {
+    font-size: 2rem;
+}
+
+#videos-div {
+    margin-bottom: 4rem;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--text-color);
+
+}
+
+.videos {
 }
